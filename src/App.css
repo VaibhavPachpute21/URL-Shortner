@@ -90,7 +90,40 @@
   cursor: pointer;
 }
 
+/* Result */
 
+.result{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+}
+
+.result p{
+  color: white;
+  border:  1px solid var(--primary-color);
+  padding: 0.5rem 1rem;
+  margin-right: 1rem;
+}
+
+.result button{
+  padding: 0.5rem 1rem;
+  color:white;
+  background-color: var(--primary-color);
+  border: none;
+  cursor: pointer;
+
+}
+
+.result button.copied{
+  background-color: white;
+  color: var(--primary-color);
+}
+
+.noData{
+  color: white;
+  font-size: 1rem;
+}
 
 /* Background Animation */
 @keyframes move {
